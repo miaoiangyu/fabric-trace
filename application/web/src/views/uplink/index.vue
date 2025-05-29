@@ -91,7 +91,7 @@
           </el-upload>
 
           <div v-if="imagePreview" style="margin-top: 10px;">
-            <img :src="imagePreview" alt="预览图" style="max-width: 100%; max-height: 150px; border: 1px solid #dcdfe6;" />
+            <img :src="imagePreview" alt="预览图" style="max-width: 100%; max-height: 150px; border: 1px solid #dcdfe6;" >
           </div>
         </el-form-item>
       </el-form>
